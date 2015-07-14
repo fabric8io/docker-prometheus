@@ -3,5 +3,5 @@ scrape_configs:
   scheme: http
   file_sd_configs:
     - names:
-      - /etc/prometheus/config.d/*.yml
-      - /etc/prometheus/config.d/*.json
+      - /etc/prometheus/targets.d/*.yml
+      - /etc/prometheus/targets.d/*.json
